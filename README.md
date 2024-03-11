@@ -18,6 +18,6 @@ Projeto realizado em Python com o objetivo de resolver problemas, otimizar algor
 - capacidade de interpretação de problemas
 - capacidade de interpretação de um código legado
 - capacidade de otimizar a resolução de problemas
-- resolver problemas/Otimizar algoritmos sob pressão
+- resolver problemas/otimizar algoritmos sob pressão
 
 #### Projeto entregue em 10/03/24
