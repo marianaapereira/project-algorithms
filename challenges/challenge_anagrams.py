@@ -1,20 +1,18 @@
 def string_sorting(string, length):
     string_lowercase = string.lower()
-    string_list = list(string_lowercase)
+    str_list = list(string_lowercase)
 
     if length > 1:
         for i in range(length):
-            letter_index = i
+            index = i
 
             for j in range((i + 1), length):
-                if string_list[j] < string_list[letter_index]:
-                    letter_index = j
+                if str_list[j] < str_list[index]:
+                    index = j
 
-            string_list[i],
-            string_list[letter_index] = string_list[letter_index],
-            string_list[i]
+            str_list[i], str_list[index] = str_list[index], str_list[i]
 
-        return ''.join(string_list)
+        return ''.join(str_list)
 
     else:
         return string_lowercase
