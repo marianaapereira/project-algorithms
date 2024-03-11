@@ -9,13 +9,16 @@ def string_sorting(string, length):
             for j in range((i + 1), length):
                 if string_list[j] < string_list[letter_index]:
                     letter_index = j
-                  
-            string_list[i], string_list[letter_index] = string_list[letter_index], string_list[i]
-        
+
+            string_list[i],
+            string_list[letter_index] = string_list[letter_index],
+            string_list[i]
+
         return ''.join(string_list)
-    
+
     else:
         return string_lowercase
+
 
 def is_anagram(first_string, second_string):
     first_string_length = len(first_string)
