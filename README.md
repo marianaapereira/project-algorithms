@@ -21,3 +21,4 @@ Projeto realizado em Python com o objetivo de resolver problemas, otimizar algor
 - resolver problemas/otimizar algoritmos sob pressão
 
 #### Projeto entregue em 10/03/24
+#### Tempo total de produção: 5 hrs 21 mins
